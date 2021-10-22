@@ -1,7 +1,5 @@
 # Шаблон для выполнения домашнего задания по Webpack
 
-ШРИ осень 2021
-
 ## Что делать?
 
 
@@ -19,13 +17,13 @@
 - шаг сбора информации о попавших в сборку модулях (обращаемся к информации о компиляции)
 - шаг сбора информации о всех модулях на файловой системе (самописный обход директорий через модуль fs)
 
-В результате, в корне вашего проекта должен появиться файл `unused` , содержащий массив с абсолютными путями до неиспользуемых модулей.
+В результате, в корне вашего проекта должен появиться файл `unused.json` , содержащий массив с абсолютными путями до неиспользуемых модулей.
 
 Например:
 ```json
 [
-  "/Users/nickshevr/Documents/Yandex/shri-2021-typescript/user/repo/sample/rhuhp.css",
-  "/Users/nickshevr/Documents/Yandex/shri-2021-typescript/user/repo/sample/u5gvv.js"
+  "/Users/nickshevr/Documents/Yandex/shri-2022-typescript/user/repo/sample/rhuhp.css",
+  "/Users/nickshevr/Documents/Yandex/shri-2022-typescript/user/repo/sample/u5gvv.js"
 ]
 ```
 
